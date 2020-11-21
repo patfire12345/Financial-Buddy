@@ -1,0 +1,3 @@
+[submodule "front_end/front_end/finance"]
+	path = front_end/front_end/finance
+	url = https://github.com/shawnpang/Financial-Buddy.git
