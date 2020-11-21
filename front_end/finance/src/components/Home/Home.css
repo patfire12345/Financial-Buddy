@@ -1,3 +1,109 @@
 .home {
+    background: #E5E5E5;
+}
+
+.home-img {
+    position: absolute;
+    width: 299px;
+    height: 114px;
+    /* left: 132px;
+    top: 214px; */
+
+    /* background: url(image.png); */
+}
+
+.home-background {
+    position: absolute;
+    width: 1264px;
+    height: 900px;
+    /* left: ; */
+    /* top: 150px; */
+
+    background: #35A0EE;
+    /* border-radius: 8px 0px 0px 8px; */
+}
+
+.home-title {
+    position: absolute;
+    width: 634px;
+    height: 108px;
+    left: 505px;
+    top: 396px;
+
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 36px;
+    /* or 60% */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.home-description {
+    position: absolute;
+    width: 562px;
+    height: 90px;
+    left: 516px;
+    top: 548px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    /* or 100% */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #005AB4;
+}
+
+.home-next {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 24px;
+
+    position: absolute;
+    left: 44.56%;
+    right: 43.75%;
+    top: 59.33%;
+    bottom: 33.92%;
+
+    background: #005AB4;
+    box-shadow: 0px 0px 20px rgba(53, 160, 238, 0.25);
+    border-radius: 4px;
+}
+
+.home-next-text {
+    position: static;
+    left: 12.83%;
+    right: 15.51%;
+    top: 31.48%;
+    bottom: 31.48%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.home-set {
+    position: absolute;
+    width: 634px;
+    height: 242px;
+    left: -175px;
+    top: -300px;
 }

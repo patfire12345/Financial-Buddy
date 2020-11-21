@@ -1,0 +1,327 @@
+.goals {
+    position: absolute;
+    width: 1200px;
+    height: 900px;
+    left: -75px;
+    top: -150px;
+}
+
+.goals-left {
+    position: absolute;
+    width: 516px;
+    height: 900px;
+    left: 75px;
+    top: 150px;
+
+    background: #35A0EE;
+    /* border-radius: 8px 0px 0px 8px; */
+}
+
+.goals-progress {
+    position: absolute;
+    width: 226px;
+    height: 180px;
+    left: -50px;
+    top: 246px;
+}
+
+.goals-now-future {
+    position: absolute;
+    width: 184px;
+    height: 24px;
+    left: 195px;
+    top: 48px;
+    
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    
+    letter-spacing: 0.02em;
+    
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.goals-preferences {
+    position: absolute;
+    width: 117px;
+    height: 24px;
+    left: 195px;
+    top: 124px;
+    
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    
+    letter-spacing: 0.02em;
+    
+    color: rgba(255, 255, 255, 0.5);
+    
+}
+
+.goals-goals {
+    position: absolute;
+    width: 56px;
+    height: 24px;
+    left: 195px;
+    top: 200px;
+    
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+}
+
+.step3 {
+    position: absolute;
+    width: 98px;
+    height: 24px;
+    /* left: 712px; */
+    top: -100px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.02em;
+
+    color: #A4AEB4;
+
+    opacity: 0.8;
+}
+
+.goals-title-set {
+    position: absolute;
+    width: 562px;
+    height: 72px;
+    left: 712px;
+    top: 300px;
+}
+
+.goals-title {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 36px;
+    /* identical to box height, or 129% */
+
+    letter-spacing: 0.02em;
+
+    color: #0B1D2E;
+}
+
+.goals-question {
+    position: absolute;
+    width: 562px;
+    height: 24px;
+    /* left: 400px;
+    top: 348px; */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.02em;
+
+    color: #A4AEB4;
+
+}
+
+.goals-loan {
+    position: absolute;
+    left: 0%;
+    /* right: 0%; */
+    top: 100px;
+    /* bottom: 0%; */
+
+    height: 55px;
+    width: 170px;
+    
+    background: #F6FBFF;
+    border: 1.5px solid #35A0EE;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.goals-mortgage {
+    position: absolute;
+    left: 200px;
+    /* right: 0%; */
+    top: 100px;
+    /* bottom: 0%; */
+
+    height: 55px;
+    width: 170px;
+    
+    background: #F6FBFF;
+    border: 1.5px solid #35A0EE;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.goals-independent{
+    position: absolute;
+    left: 400px;
+    /* right: 0%; */
+    top: 100px;
+    /* bottom: 0%; */
+
+    height: 55px;
+    width: 170px;
+    
+    background: #F6FBFF;
+    border: 1.5px solid #35A0EE;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.goals-savings {
+    position: absolute;
+    left: 0%;
+    /* right: 0%; */
+    top: 175px;
+    /* bottom: 0%; */
+
+    height: 55px;
+    width: 170px;
+    
+    background: #F6FBFF;
+    border: 1.5px solid #35A0EE;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.goals-car {
+    position: absolute;
+    left: 200px;
+    /* right: 0%; */
+    top: 175px;
+    /* bottom: 0%; */
+
+    height: 55px;
+    width: 170px;
+    
+    background: #F6FBFF;
+    border: 1.5px solid #35A0EE;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.goals-passive {
+    position: absolute;
+    left: 400px;
+    /* right: 0%; */
+    top: 175px;
+    /* bottom: 0%; */
+
+    height: 55px;
+    width: 170px;
+    
+    background: #F6FBFF;
+    border: 1.5px solid #35A0EE;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.goals-degree {
+    position: absolute;
+    left: 0%;
+    /* right: 0%; */
+    top: 250px;
+    /* bottom: 0%; */
+
+    height: 55px;
+    width: 170px;
+    
+    background: #F6FBFF;
+    border: 1.5px solid #35A0EE;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.goals-other {
+    position: absolute;
+    left: 200px;
+    /* right: 0%; */
+    top: 250px;
+    /* bottom: 0%; */
+
+    height: 55px;
+    width: 170px;
+    
+    background: #F6FBFF;
+    border: 1.5px solid #35A0EE;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.goals-to-home {
+    position: absolute;
+    left: -100px;
+    /* right: 41.75%; */
+    top: 400px;
+    /* bottom: 17.17%; */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.02em;
+
+    color: #35A0EE;
+
+}
+
+.goals-next {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 24px;
+
+    position: absolute;
+    left: 300px;
+    /* right: 14.31%; */
+    top: 400px;
+    /* bottom: 16.17%; */
+
+    background: #35A0EE;
+    box-shadow: 0px 0px 20px rgba(53, 160, 238, 0.25);
+    border-radius: 4px;
+}
+
+.goals-skip {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 24px;
+
+    position: absolute;
+    left: 100px;
+    /* right: 24.94%; */
+    top: 400px;
+    /* bottom: 16.17%; */
+
+    background: rgba(53, 160, 238, 0.1);
+    border-radius: 4px;
+}

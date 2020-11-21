@@ -26,6 +26,12 @@ function Navbar() {
                         Questions 
                     </Button>
                 </Link> 
+
+                <Link to='/situation'>
+                    <Button buttonColor = 'green'>
+                        Situation
+                    </Button>
+                </Link> 
             </div>
 
             <div className='register'>
