@@ -99,8 +99,8 @@ function Preferences() {
                                 <br/>
                                 <input
                                 type="range"
-                                name="loan"
-                                id="loan"
+                                name="debt"
+                                id="debt"
                                 min="0"
                                 max="5"
                                 />
@@ -112,26 +112,50 @@ function Preferences() {
                             <div className='preferences-withdraw'>
                                 How frequently do you want to take out your money?
                                 <br/>
-                                <input
-                                type="range"
-                                name="loan"
-                                id="loan"
-                                className="loan"
-                                value={formik.values.loan} 
-                                onChange={formik.handleChange} 
-                                />
-                                <br/>
                             </div>
+                            
+                            <div className='preferences-annually'>
+                                <input
+                                type="radio"
+                                name="withdraw"
+                                id="withdraw"
+                                value="annually"
+                                />
+                                <label for="annually" className='preferences-annually-text'>Annually</label>
+                            </div>
+                            
+                            <div className='preferences-three'>
+                                <input
+                                type="radio"
+                                name="withdraw"
+                                id="withdraw"
+                                value="within 3 years"
+                                />
+                                <label for="within 3 years" className='preferences-three-text'>Within 3 Years</label>
+                            </div>
+
+                            <div className='preferences-five'>
+                                <input
+                                type="radio"
+                                name="withdraw"
+                                id="withdraw"
+                                value="within 5 years"
+                                />
+                                <label for="within 5 years" className='preferences-five-text'>Within 5 Years</label>
+                            </div>
+                                
+                                <br/>
+                            
                         </div>
 
                         <div className='preferences-next'>
-                            <Link to='/goals'>
+                            {/* <Link to='/goals'> */}
                                 <input
                                 type="submit"
                                 value="Next step -> "
                                 onChange={formik.handleChange} 
                                 />
-                            </Link>
+                            {/* </Link> */}
                         </div>
                     </form>
 
