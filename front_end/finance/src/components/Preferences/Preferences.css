@@ -145,61 +145,76 @@
 
 }
 
-.preferences-credit-title {
+.preferences-passive {
     position: absolute;
-    left: -100px;
-    /* right: 38.56%; */
-    top: 200px;
-    /* bottom: 50%; */
-
-    font-family: Montserrat;
+    width: 443px;
+    height: 28px;
+    /* left: 633px; */
+    top: 100px;
+    
+    font-family: Montserrat Alternates;
     font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    /* identical to box height, or 143% */
-
-    letter-spacing: 0.02em;
-
-    color: #A4AEB4;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 28px;
+    /* identical to box height, or 133% */
+    
+    
+    color: #0B1D2E;
 }
 
-.preferences-savings-title {
+.preferences-risks {
     position: absolute;
-    left: 100px;
-    /* right: 22.5%; */
-    top: 200px;
-    /* bottom: 63.83%; */
-
-    font-family: Montserrat;
+    width: 541px;
+    height: 28px;
+    /* left: 633px; */
+    top: 175px;
+    
+    font-family: Montserrat Alternates;
     font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    /* identical to box height, or 143% */
-
-    letter-spacing: 0.02em;
-
-    color: #A4AEB4;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 28px;
+    /* identical to box height, or 133% */
+    
+    
+    color: #0B1D2E;
 }
 
-.preferences-loan-title {
+.preferences-debt {
     position: absolute;
-    left: 300px;
-    /* right: 8%; */
-    top: 200px;
-    /* bottom: 63.5%; */
-
-    font-family: Montserrat;
+    width: 523px;
+    height: 28px;
+    /* left: 633px; */
+    top: 250px;
+    
+    font-family: Montserrat Alternates;
     font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    /* identical to box height, or 143% */
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 28px;
+    /* identical to box height, or 133% */
+    
+    
+    color: #0B1D2E;
+}
 
-    letter-spacing: 0.02em;
-
-    color: #A4AEB4;
+.preferences-withdraw {
+    position: absolute;
+    width: 523px;
+    height: 28px;
+    /* left: 633px; */
+    top: 300px;
+    
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 28px;
+    /* identical to box height, or 133% */
+    
+    
+    color: #0B1D2E;
 }
 
 .preferences-to-home {

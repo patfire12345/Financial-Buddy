@@ -168,12 +168,12 @@ function Goals() {
                         </div>
 
                         <div className='goals-next'>
-                            {/* <Link to='/'> */}
+                            <Link to='/'>
                                 <input
                                 type="submit"
-                                value="Next step -> "
+                                value="Finish"
                                 />
-                            {/* </Link> */}
+                            </Link>
                         </div>
                     </form>
 

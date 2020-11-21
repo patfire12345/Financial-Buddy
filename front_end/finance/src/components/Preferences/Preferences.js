@@ -66,41 +66,54 @@ function Preferences() {
                 <div>
                     <form className="baseForm" onSubmit={onSubmit} noValidate>
                         <div>
-                            <div className='preferences-credit-title'>
-                                Your Current Credit Score
+                            <div className='preferences-passive'>
+                                How do you feel about passive income?
                                 <br/>
                                 <input
-                                type="text"
-                                name="credit"
-                                id="credit"
-                                className="credit"
-                                value={formik.values.creditScore} 
-                                onChange={formik.handleChange} 
+                                type="range"
+                                name="passive"
+                                id="passive"
+                                min="0"
+                                max="5"
                                 />
                                 
                             </div>
                         </div>
                         <div>
-                            <div className='preferences-savings-title'>
-                                Your Current Savings 
+                            <div className='preferences-risks'>
+                                How comfortable are you with investment risks?
                                 <br/>
                                 <input
-                                type="text"
-                                name="savings"
-                                id="savings"
-                                className="savings"
-                                value={formik.values.savings} 
-                                onChange={formik.handleChange} 
+                                type="range"
+                                name="risks"
+                                id="risks"
+                                min="0"
+                                max="5"
                                 />
                                 <br/>
                             </div>
                         </div>
                         <div>
-                            <div className='preferences-loan-title'>
-                                Your Total Student Loan
+                            <div className='preferences-debt'>
+                                How comfortable are you with taking on debt?
                                 <br/>
                                 <input
-                                type="text"
+                                type="range"
+                                name="loan"
+                                id="loan"
+                                min="0"
+                                max="5"
+                                />
+                                <br/>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div className='preferences-withdraw'>
+                                How frequently do you want to take out your money?
+                                <br/>
+                                <input
+                                type="range"
                                 name="loan"
                                 id="loan"
                                 className="loan"
