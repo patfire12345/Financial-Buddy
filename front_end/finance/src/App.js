@@ -8,7 +8,7 @@ import "./App.css"
 import Signup from './components/Signup/Signup';
 import Login from './components/Login/Login';
 
-// App
+// Main part of the app
 function App() {
   return (
     <div className="App">

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { Button } from '../Button/Button'
 import './Home.css'
 
+// Home page, leads to signup 
 function Home() {
     return (
         <div className="home">

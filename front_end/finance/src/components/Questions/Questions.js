@@ -1,5 +1,6 @@
 import React from 'react'
 
+// Questionnare page
 function Questions() {
     return (
         <div>

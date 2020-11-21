@@ -8,6 +8,7 @@ const SIZES = ['btn--medium', 'btn--large', 'btn--mobile',
 
 const COLOR = ['primary', 'blue', 'red', 'green'];
 
+// adaptable button, different styles, colors, and sizes
 export const Button = ({
     children,
     type,

@@ -4,7 +4,7 @@ import { Button } from '../Button/Button'
 import Register from '../Register/Register'
 import './Navbar.css'
 
-// navbar
+// Navbar that keeps all of the pages
 function Navbar() {
     return (
         <div className='nav'>

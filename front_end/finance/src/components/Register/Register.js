@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Button } from '../Button/Button'
 
+// helper component that contains signup and login
 function Register() {
     return (
         <div>

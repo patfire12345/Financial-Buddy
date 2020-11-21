@@ -1,6 +1,7 @@
 import React from 'react'
 import {useFormik} from 'formik'
 
+// Sign up page 
 function Signup() {
 
     const formik = useFormik({
