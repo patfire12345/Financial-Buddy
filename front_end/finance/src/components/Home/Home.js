@@ -23,7 +23,7 @@ function Home() {
                 </div>
                 
                 <div>
-                    <Link to='/signup'>
+                    <Link to='/situation'>
                         <button className='home-next'>
                             <div className='home-next-text'>
                                 Let's go!
