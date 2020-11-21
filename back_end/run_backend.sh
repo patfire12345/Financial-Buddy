@@ -1,3 +1,4 @@
-export FLASK_APP=financial_buddy
-export FLASK_ENV=development
+export FLASK_APP=financialbuddy
+export FLASK_DEBUG=1
+
 flask run
