@@ -1,4 +1,4 @@
-.situation {
+.preferences {
     position: absolute;
     width: 1200px;
     height: 900px;
@@ -6,7 +6,7 @@
     top: -150px;
 }
 
-.situation-left {
+.preferences-left {
     position: absolute;
     width: 516px;
     height: 900px;
@@ -17,7 +17,7 @@
     /* border-radius: 8px 0px 0px 8px; */
 }
 
-.situation-progress {
+.preferences-progress {
     position: absolute;
     width: 226px;
     height: 180px;
@@ -25,7 +25,7 @@
     top: 246px;
 }
 
-.situation-now-future {
+.preferences-now-future {
     position: absolute;
     width: 184px;
     height: 24px;
@@ -41,10 +41,10 @@
     
     letter-spacing: 0.02em;
     
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.5);
 }
 
-.situation-preferences {
+.preferences-preferences {
     position: absolute;
     width: 117px;
     height: 24px;
@@ -60,11 +60,11 @@
     
     letter-spacing: 0.02em;
     
-    color: rgba(255, 255, 255, 0.5);
+    color: #FFFFFF;
     
 }
 
-.situation-goals {
+.preferences-goals {
     position: absolute;
     width: 56px;
     height: 24px;
@@ -83,7 +83,7 @@
     color: rgba(255, 255, 255, 0.5);
 }
 
-.step1 {
+.step2 {
     position: absolute;
     width: 98px;
     height: 24px;
@@ -104,7 +104,7 @@
     opacity: 0.8;
 }
 
-.situation-title-set {
+.preferences-title-set {
     position: absolute;
     width: 562px;
     height: 72px;
@@ -112,7 +112,7 @@
     top: 300px;
 }
 
-.situation-title {
+.preferences-title {
     font-family: Montserrat Alternates;
     font-style: normal;
     font-weight: 800;
@@ -125,7 +125,7 @@
     color: #0B1D2E;
 }
 
-.situation-question {
+.preferences-question {
     position: absolute;
     width: 562px;
     height: 24px;
@@ -145,7 +145,7 @@
 
 }
 
-.situation-credit-title {
+.preferences-credit-title {
     position: absolute;
     left: -100px;
     /* right: 38.56%; */
@@ -164,7 +164,7 @@
     color: #A4AEB4;
 }
 
-.situation-savings-title {
+.preferences-savings-title {
     position: absolute;
     left: 100px;
     /* right: 22.5%; */
@@ -183,7 +183,7 @@
     color: #A4AEB4;
 }
 
-.situation-loan-title {
+.preferences-loan-title {
     position: absolute;
     left: 300px;
     /* right: 8%; */
@@ -202,9 +202,9 @@
     color: #A4AEB4;
 }
 
-.situation-to-home {
+.preferences-to-home {
     position: absolute;
-    left: -100px;
+    left: -115px;
     /* right: 41.75%; */
     top: 400px;
     /* bottom: 17.17%; */
@@ -222,7 +222,7 @@
 
 }
 
-.situation-next {
+.preferences-next {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -239,7 +239,7 @@
     border-radius: 4px;
 }
 
-.situation-skip {
+.preferences-skip {
     display: flex;
     flex-direction: row;
     align-items: center;

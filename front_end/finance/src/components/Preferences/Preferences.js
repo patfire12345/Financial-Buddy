@@ -1,15 +1,15 @@
 import React from 'react'
 import {useFormik} from 'formik';
 import {Link} from 'react-router-dom';
-import './Situation.css'
+import './Preferences.css'
 
-function Situation() {
+function Preferences() {
 
     const formik = useFormik({
         initialValues: {
             creditScore: "",
-            savings: "",
-            loan: "",
+            savings: "$",
+            loan: "$",
         },
     })
 
@@ -35,38 +35,38 @@ function Situation() {
     }
 
     return (
-        <div className='situation'>
-            <div className='situation-left'>
-                <div className="situation-progress">
-                    <div className="situation-now-future">
+        <div className='preferences'>
+            <div className='preferences-left'>
+                <div className="preferences-progress">
+                    <div className="preferences-now-future">
                         Now vs. the Future
                     </div>
 
-                    <div className="situation-preferences">
+                    <div className="preferences-preferences">
                         Preferences 
                     </div>
 
-                    <div className="situation-goals">
+                    <div className="preferences-goals">
                         Goals
                     </div>
                 </div>
             </div>
-            <div className='situation-title-set'>
-                <div className='step1'>
-                    Step 1 of 3
+            <div className='preferences-title-set'>
+                <div className='step2'>
+                    Step 2 of 3
                 </div>
-                <div className='situation-title'>
-                    Tell us a bit about yourself
+                <div className='preferences-title'>
+                    Preferences
                 </div>
 
-                <div className='situation-question'>
-                    How are you doing financially?
+                <div className='preferences-question'>
+                    Let us know about your investment and risk preferences
                 </div>
 
                 <div>
                     <form className="baseForm" onSubmit={onSubmit} noValidate>
                         <div>
-                            <div className='situation-credit-title'>
+                            <div className='preferences-credit-title'>
                                 Your Current Credit Score
                                 <br/>
                                 <input
@@ -81,7 +81,7 @@ function Situation() {
                             </div>
                         </div>
                         <div>
-                            <div className='situation-savings-title'>
+                            <div className='preferences-savings-title'>
                                 Your Current Savings 
                                 <br/>
                                 <input
@@ -89,7 +89,6 @@ function Situation() {
                                 name="savings"
                                 id="savings"
                                 className="savings"
-                                placeholder="$"
                                 value={formik.values.savings} 
                                 onChange={formik.handleChange} 
                                 />
@@ -97,7 +96,7 @@ function Situation() {
                             </div>
                         </div>
                         <div>
-                            <div className='situation-loan-title'>
+                            <div className='preferences-loan-title'>
                                 Your Total Student Loan
                                 <br/>
                                 <input
@@ -105,7 +104,6 @@ function Situation() {
                                 name="loan"
                                 id="loan"
                                 className="loan"
-                                placeholder="$"
                                 value={formik.values.loan} 
                                 onChange={formik.handleChange} 
                                 />
@@ -113,8 +111,8 @@ function Situation() {
                             </div>
                         </div>
 
-                        <div className='situation-next'>
-                            <Link to='/preferences'>
+                        <div className='preferences-next'>
+                            <Link to='/goals'>
                                 <input
                                 type="submit"
                                 value="Next step -> "
@@ -124,19 +122,19 @@ function Situation() {
                         </div>
                     </form>
 
-                    <div className='situation-skip'>
-                            <Link to='/preferences'>
-                                <input
-                                type="button"
-                                value="Skip for now"
-                                onChange={formik.handleChange} 
-                                />
-                            </Link>
+                    <div className='preferences-skip'>
+                        <Link to='/goals'>
+                            <input
+                            type="button"
+                            value="Skip for now"
+                            onChange={formik.handleChange} 
+                            />
+                        </Link>
                     </div>
 
-                    <div className="situation-to-home">
-                        <Link to='/'>
-                            Back to the homepage
+                    <div className="preferences-to-home">
+                        <Link to='/situation'>
+                            Back to the previous step
                         </Link>
                     </div>
                 </div>
@@ -146,4 +144,4 @@ function Situation() {
     )
 }
 
-export default Situation
+export default Preferences

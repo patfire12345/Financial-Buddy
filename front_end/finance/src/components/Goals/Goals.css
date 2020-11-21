@@ -1,4 +1,4 @@
-.situation {
+.goals {
     position: absolute;
     width: 1200px;
     height: 900px;
@@ -6,7 +6,7 @@
     top: -150px;
 }
 
-.situation-left {
+.goals-left {
     position: absolute;
     width: 516px;
     height: 900px;
@@ -17,7 +17,7 @@
     /* border-radius: 8px 0px 0px 8px; */
 }
 
-.situation-progress {
+.goals-progress {
     position: absolute;
     width: 226px;
     height: 180px;
@@ -25,7 +25,7 @@
     top: 246px;
 }
 
-.situation-now-future {
+.goals-now-future {
     position: absolute;
     width: 184px;
     height: 24px;
@@ -41,10 +41,10 @@
     
     letter-spacing: 0.02em;
     
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.5);
 }
 
-.situation-preferences {
+.goals-preferences {
     position: absolute;
     width: 117px;
     height: 24px;
@@ -64,7 +64,7 @@
     
 }
 
-.situation-goals {
+.goals-goals {
     position: absolute;
     width: 56px;
     height: 24px;
@@ -80,10 +80,10 @@
     
     letter-spacing: 0.02em;
     
-    color: rgba(255, 255, 255, 0.5);
+    color: #FFFFFF;
 }
 
-.step1 {
+.step3 {
     position: absolute;
     width: 98px;
     height: 24px;
@@ -104,7 +104,7 @@
     opacity: 0.8;
 }
 
-.situation-title-set {
+.goals-title-set {
     position: absolute;
     width: 562px;
     height: 72px;
@@ -112,7 +112,7 @@
     top: 300px;
 }
 
-.situation-title {
+.goals-title {
     font-family: Montserrat Alternates;
     font-style: normal;
     font-weight: 800;
@@ -125,7 +125,7 @@
     color: #0B1D2E;
 }
 
-.situation-question {
+.goals-question {
     position: absolute;
     width: 562px;
     height: 24px;
@@ -145,64 +145,135 @@
 
 }
 
-.situation-credit-title {
+.goals-loan {
     position: absolute;
-    left: -100px;
-    /* right: 38.56%; */
-    top: 200px;
-    /* bottom: 50%; */
+    left: 0%;
+    /* right: 0%; */
+    top: 100px;
+    /* bottom: 0%; */
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    /* identical to box height, or 143% */
-
-    letter-spacing: 0.02em;
-
-    color: #A4AEB4;
+    height: 55px;
+    width: 170px;
+    
+    background: #F6FBFF;
+    border: 1.5px solid #35A0EE;
+    box-sizing: border-box;
+    border-radius: 4px;
 }
 
-.situation-savings-title {
+.goals-mortgage {
     position: absolute;
-    left: 100px;
-    /* right: 22.5%; */
-    top: 200px;
-    /* bottom: 63.83%; */
+    left: 200px;
+    /* right: 0%; */
+    top: 100px;
+    /* bottom: 0%; */
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    /* identical to box height, or 143% */
-
-    letter-spacing: 0.02em;
-
-    color: #A4AEB4;
+    height: 55px;
+    width: 170px;
+    
+    background: #F6FBFF;
+    border: 1.5px solid #35A0EE;
+    box-sizing: border-box;
+    border-radius: 4px;
 }
 
-.situation-loan-title {
+.goals-independent{
     position: absolute;
-    left: 300px;
-    /* right: 8%; */
-    top: 200px;
-    /* bottom: 63.5%; */
+    left: 400px;
+    /* right: 0%; */
+    top: 100px;
+    /* bottom: 0%; */
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    /* identical to box height, or 143% */
-
-    letter-spacing: 0.02em;
-
-    color: #A4AEB4;
+    height: 55px;
+    width: 170px;
+    
+    background: #F6FBFF;
+    border: 1.5px solid #35A0EE;
+    box-sizing: border-box;
+    border-radius: 4px;
 }
 
-.situation-to-home {
+.goals-savings {
+    position: absolute;
+    left: 0%;
+    /* right: 0%; */
+    top: 175px;
+    /* bottom: 0%; */
+
+    height: 55px;
+    width: 170px;
+    
+    background: #F6FBFF;
+    border: 1.5px solid #35A0EE;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.goals-car {
+    position: absolute;
+    left: 200px;
+    /* right: 0%; */
+    top: 175px;
+    /* bottom: 0%; */
+
+    height: 55px;
+    width: 170px;
+    
+    background: #F6FBFF;
+    border: 1.5px solid #35A0EE;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.goals-passive {
+    position: absolute;
+    left: 400px;
+    /* right: 0%; */
+    top: 175px;
+    /* bottom: 0%; */
+
+    height: 55px;
+    width: 170px;
+    
+    background: #F6FBFF;
+    border: 1.5px solid #35A0EE;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.goals-degree {
+    position: absolute;
+    left: 0%;
+    /* right: 0%; */
+    top: 250px;
+    /* bottom: 0%; */
+
+    height: 55px;
+    width: 170px;
+    
+    background: #F6FBFF;
+    border: 1.5px solid #35A0EE;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.goals-other {
+    position: absolute;
+    left: 200px;
+    /* right: 0%; */
+    top: 250px;
+    /* bottom: 0%; */
+
+    height: 55px;
+    width: 170px;
+    
+    background: #F6FBFF;
+    border: 1.5px solid #35A0EE;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.goals-to-home {
     position: absolute;
     left: -100px;
     /* right: 41.75%; */
@@ -222,7 +293,7 @@
 
 }
 
-.situation-next {
+.goals-next {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -239,7 +310,7 @@
     border-radius: 4px;
 }
 
-.situation-skip {
+.goals-skip {
     display: flex;
     flex-direction: row;
     align-items: center;
