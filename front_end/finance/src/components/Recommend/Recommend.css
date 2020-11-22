@@ -1,0 +1,368 @@
+.recommend-left {
+    position: absolute;
+    width: 1310px;
+    height: 900px;
+    left: -50px;
+    top: -70px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 56px rgba(0, 133, 255, 0.05);
+    border-radius: 8px;
+}
+
+.recommend-title {
+    position: absolute;
+    left: 87px;
+    top: 83px;
+    
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 36px;
+    
+    letter-spacing: 0.02em;
+    
+    color: #0B1D2E;
+}
+
+.recommend-subtitle {
+    position: absolute;
+    width: 1206px;
+    height: 24px;
+    left: 87px;
+    top: 131px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    
+    letter-spacing: 0.02em;
+    
+    color: #A4AEB4;
+}
+
+.recommend-advice-one-title {
+    position: absolute;
+    left: 87px;
+    top: 182px;
+
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 28px;
+
+    color: #0B1D2E;
+}
+
+.recommend-advice-one-description {
+    position: absolute;
+    width: 562px;
+    height: 120px;
+    left: 87px;
+    top: 215px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    
+    letter-spacing: 0.02em;
+    
+    color: #A4AEB4;
+}
+
+.recommend-advice-two-title {
+    position: absolute;
+    left: 87px;
+    top: 382px;
+    
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 28px;
+    
+    color: #0B1D2E;
+}
+
+.recommend-advice-two-description {
+    position: absolute;
+    width: 562px;
+    height: 168px;
+    left: 87px;
+    top: 419px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    
+    letter-spacing: 0.02em;
+    
+    color: #A4AEB4;
+}
+
+.recommend-advice-three-title {
+    position: absolute;
+    left: 87px;
+    top: 582px;
+    
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 28px;
+    
+    color: #0B1D2E;
+}
+
+.recommend-advice-three-description {
+    position: absolute;
+    width: 562px;
+    height: 144px;
+    left: 87px;
+    top: 619px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    
+    letter-spacing: 0.02em;
+    
+    color: #A4AEB4;
+}
+
+.recommend-print-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 24px;
+
+    height: 48px;
+    
+    position: absolute;
+    left: 55%;
+    top: 750px;
+    
+    background: rgba(53, 160, 238, 0.1);
+    border-radius: 4px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: #35A0EE;
+}
+
+.recommend-learn-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 24px;
+
+    height: 48px;
+    width: 136px;
+    
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    
+    background: #35A0EE;
+    box-shadow: 0px 0px 20px rgba(53, 160, 238, 0.25);
+    border-radius: 4px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+    
+}
+
+.recommend-learn-button:hover {
+    height: 45px;
+    width: 133px;
+    opacity: 80%;
+    transition: ease-out 1s;
+}
+
+.recommend-to-home {
+    position: absolute;
+    left: 3%;
+    top: 750px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    
+    letter-spacing: 0.02em;
+    
+    color: #35A0EE;
+}
+
+.recommend-tax-free {
+    position: absolute;
+    width: 136px;
+    height: 148px;
+    left: 700px;
+    bottom: 300px;
+    
+    background: #FFFFFF;
+    border: 1.5px solid #D5D9DC;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(213, 217, 220, 0.05);
+    border-radius: 4px;
+}
+
+.recommend-tax-free:hover {
+    background: #F6FBFF;
+    border: 1.5px solid #35A0EE;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.recommend-savings {
+    position: absolute;
+    width: 136px;
+    height: 148px;
+    left: 850px;
+    bottom: 300px;
+    
+    background: #FFFFFF;
+    border: 1.5px solid #D5D9DC;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(213, 217, 220, 0.05);
+    border-radius: 4px;
+}
+
+.recommend-savings:hover {
+    background: #F6FBFF;
+    border: 1.5px solid #35A0EE;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.recommend-certificates {
+    position: absolute;
+    width: 136px;
+    height: 148px;
+    left: 1000px;
+    bottom: 300px;
+    
+    background: #FFFFFF;
+    border: 1.5px solid #D5D9DC;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(213, 217, 220, 0.05);
+    border-radius: 4px;
+}
+
+.recommend-certificates:hover {
+    background: #F6FBFF;
+    border: 1.5px solid #35A0EE;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.recommend-car {
+    position: absolute;
+    width: 136px;
+    height: 148px;
+    left: 700px;
+    bottom: 150px;
+    
+    background: #FFFFFF;
+    border: 1.5px solid #D5D9DC;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(213, 217, 220, 0.05);
+    border-radius: 4px;
+}
+
+.recommend-car:hover {
+    background: #F6FBFF;
+    border: 1.5px solid #35A0EE;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.recommend-line-credit {
+    position: absolute;
+    width: 136px;
+    height: 148px;
+    left: 850px;
+    bottom: 150px;
+    
+    background: #FFFFFF;
+    border: 1.5px solid #D5D9DC;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(213, 217, 220, 0.05);
+    border-radius: 4px;
+}
+
+.recommend-line-credit:hover {
+    background: #F6FBFF;
+    border: 1.5px solid #35A0EE;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.recommend-mastercard {
+    position: absolute;
+    width: 136px;
+    height: 148px;
+    left: 1000px;
+    bottom: 150px;
+    
+    background: #FFFFFF;
+    border: 1.5px solid #D5D9DC;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(213, 217, 220, 0.05);
+    border-radius: 4px;
+}
+
+.recommend-mastercard:hover {
+    background: #F6FBFF;
+    border: 1.5px solid #35A0EE;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.recommend-visa {
+    position: absolute;
+    width: 136px;
+    height: 148px;
+    left: 700px;
+    bottom: 0px;
+    
+    background: #FFFFFF;
+    border: 1.5px solid #D5D9DC;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(213, 217, 220, 0.05);
+    border-radius: 4px;
+}
+
+.recommend-visa:hover {
+    background: #F6FBFF;
+    border: 1.5px solid #35A0EE;
+    box-sizing: border-box;
+    border-radius: 4px;
+}

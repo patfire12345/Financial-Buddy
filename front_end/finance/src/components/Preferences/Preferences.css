@@ -14,7 +14,6 @@
     top: 150px;
 
     background: #35A0EE;
-    /* border-radius: 8px 0px 0px 8px; */
 }
 
 .preferences-progress {
@@ -37,7 +36,6 @@
     font-weight: bold;
     font-size: 18px;
     line-height: 24px;
-    /* identical to box height, or 133% */
     
     letter-spacing: 0.02em;
     
@@ -56,7 +54,6 @@
     font-weight: bold;
     font-size: 18px;
     line-height: 24px;
-    /* identical to box height, or 133% */
     
     letter-spacing: 0.02em;
     
@@ -76,7 +73,6 @@
     font-weight: bold;
     font-size: 18px;
     line-height: 24px;
-    /* identical to box height, or 133% */
     
     letter-spacing: 0.02em;
     
@@ -87,7 +83,6 @@
     position: absolute;
     width: 98px;
     height: 24px;
-    /* left: 712px; */
     top: -100px;
 
     font-family: Montserrat;
@@ -95,7 +90,6 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
 
     letter-spacing: 0.02em;
 
@@ -118,7 +112,6 @@
     font-weight: 800;
     font-size: 28px;
     line-height: 36px;
-    /* identical to box height, or 129% */
 
     letter-spacing: 0.02em;
 
@@ -129,15 +122,12 @@
     position: absolute;
     width: 562px;
     height: 24px;
-    /* left: 400px;
-    top: 348px; */
 
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
 
     letter-spacing: 0.02em;
 
@@ -147,54 +137,42 @@
 
 .preferences-passive {
     position: absolute;
-    width: 443px;
     height: 28px;
-    /* left: 633px; */
-    top: 100px;
+    top: 70px;
     
     font-family: Montserrat Alternates;
     font-style: normal;
     font-weight: bold;
     font-size: 21px;
     line-height: 28px;
-    /* identical to box height, or 133% */
-    
     
     color: #0B1D2E;
 }
 
 .preferences-risks {
     position: absolute;
-    width: 541px;
     height: 28px;
-    /* left: 633px; */
-    top: 175px;
+    top: 145px;
     
     font-family: Montserrat Alternates;
     font-style: normal;
     font-weight: bold;
     font-size: 21px;
     line-height: 28px;
-    /* identical to box height, or 133% */
-    
     
     color: #0B1D2E;
 }
 
 .preferences-debt {
     position: absolute;
-    width: 523px;
     height: 28px;
-    /* left: 633px; */
-    top: 250px;
+    top: 220px;
     
     font-family: Montserrat Alternates;
     font-style: normal;
     font-weight: bold;
     font-size: 21px;
     line-height: 28px;
-    /* identical to box height, or 133% */
-    
     
     color: #0B1D2E;
 }
@@ -203,16 +181,13 @@
     position: absolute;
     width: 523px;
     height: 28px;
-    /* left: 633px; */
-    top: 315px;
+    top: 295px;
     
     font-family: Montserrat Alternates;
     font-style: normal;
     font-weight: bold;
     font-size: 21px;
     line-height: 28px;
-    /* identical to box height, or 133% */
-    
     
     color: #0B1D2E;
 }
@@ -222,8 +197,16 @@
     width: 154.38px;
     height: 48px;
     left: 0px;
-    top: 340px;
-    
+    top: 320px;
+
+    background: #FFFFFF;
+    border: 1.5px solid #D5D9DC;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(213, 217, 220, 0.05);
+    border-radius: 4px;
+}
+
+.preferences-annually:hover {
     background: #F7FBFF;
     border: 2px solid #35A0EE;
     box-sizing: border-box;
@@ -235,8 +218,16 @@
     width: 154.38px;
     height: 48px;
     left: 175px;
-    top: 340px;
-    
+    top: 320px;
+
+    background: #FFFFFF;
+    border: 1.5px solid #D5D9DC;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(213, 217, 220, 0.05);
+    border-radius: 4px;
+}
+
+.preferences-three:hover {
     background: #F7FBFF;
     border: 2px solid #35A0EE;
     box-sizing: border-box;
@@ -248,8 +239,16 @@
     width: 154.38px;
     height: 48px;
     left: 350px;
-    top: 340px;
+    top: 320px;
     
+    background: #FFFFFF;
+    border: 1.5px solid #D5D9DC;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(213, 217, 220, 0.05);
+    border-radius: 4px;
+}
+
+.preferences-five:hover {
     background: #F7FBFF;
     border: 2px solid #35A0EE;
     box-sizing: border-box;
@@ -262,7 +261,6 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
     
     letter-spacing: 0.02em;
     
@@ -275,7 +273,6 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
     
     letter-spacing: 0.02em;
     
@@ -288,7 +285,6 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
     
     letter-spacing: 0.02em;
     
@@ -298,16 +294,13 @@
 .preferences-to-home {
     position: absolute;
     left: -115px;
-    /* right: 41.75%; */
     top: 400px;
-    /* bottom: 17.17%; */
 
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
 
     letter-spacing: 0.02em;
 
@@ -315,7 +308,7 @@
 
 }
 
-.preferences-next {
+.preferences-next-button {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -323,17 +316,34 @@
 
     position: absolute;
     left: 300px;
-    /* right: 14.31%; */
     top: 400px;
-    /* bottom: 16.17%; */
 
     background: #35A0EE;
     box-shadow: 0px 0px 20px rgba(53, 160, 238, 0.25);
     border-radius: 4px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+    cursor: pointer;
     
 }
 
-.preferences-skip {
+.preferences-next-button:hover {
+    transition: ease-out 1s;
+    height: 50px;
+    width: 160px;
+}
+
+.preferences-skip-button {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -341,10 +351,27 @@
 
     position: absolute;
     left: 100px;
-    /* right: 24.94%; */
     top: 400px;
-    /* bottom: 16.17%; */
 
     background: rgba(53, 160, 238, 0.1);
     border-radius: 4px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: #35A0EE;
+    
+    cursor: pointer;
+}
+
+.preferences-skip-button:hover {
+    transition: ease-out 1s;
+    height: 50px;
+    width: 160px;
 }

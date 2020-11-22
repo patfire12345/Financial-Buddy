@@ -80,6 +80,12 @@
     border-radius: 4px;
 }
 
+.home-next:hover {
+    transition: ease-out 1s;
+    height: 70px;
+    width: 190px;
+}
+
 .home-next-text {
     position: static;
     left: 12.83%;

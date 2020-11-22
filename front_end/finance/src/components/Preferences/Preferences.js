@@ -3,33 +3,41 @@ import {useFormik} from 'formik';
 import {Link} from 'react-router-dom';
 import './Preferences.css'
 
-function Preferences() {
+function Preferences(props) {
 
     const formik = useFormik({
-        initialValues: {
-            creditScore: "",
-            savings: "$",
-            loan: "$",
-        },
+        
     })
 
     const onSubmit = async (values) => {
         
-        const response = await fetch("",
-            {
-                method: "GET", 
-                headers: {
-                    Accept: 'application/json',
-                    'Content-Type': 'application/json'
-                },
-            }
-        );
-
-        if(!response.ok) {
-            throw new Error(response.messages)
-        }
+        values.preventDefault();
+        console.log(values.target.debt.value);
+        console.log(values.target.withdraw.value);
         
-        const user = await response.json();
+        props.history.push("/goals");
+
+        // const response = await fetch("",
+        //     {
+        //         method: "GET", 
+        //         headers: {
+        //             Accept: 'application/json',
+        //             'Content-Type': 'application/json'
+        //         },
+        //         body: {
+        //             preferencePassive: values.target.passive.value,
+        //             preferenceRisks: values.target.risks.value,
+        //             preferenceDebt: values.target.debt.value,
+        //             preferenceWithdraw: values.target.withdraw.value,
+        //         }
+        //     }
+        // );
+
+        // if(!response.ok) {
+        //     throw new Error(response.messages)
+        // }
+        
+        // const user = await response.json();
 
         // do something with the data
     }
@@ -110,7 +118,7 @@ function Preferences() {
 
                         <div>
                             <div className='preferences-withdraw'>
-                                How frequently do you want to take out your money?
+                                How frequently do you want to withdraw?
                                 <br/>
                             </div>
                             
@@ -149,13 +157,12 @@ function Preferences() {
                         </div>
 
                         <div className='preferences-next'>
-                            {/* <Link to='/goals'> */}
-                                <input
-                                type="submit"
-                                value="Next step -> "
-                                onChange={formik.handleChange} 
-                                />
-                            {/* </Link> */}
+                            <input
+                            type="submit"
+                            value="Next step -> "
+                            onChange={formik.handleChange} 
+                            className="preferences-next-button"
+                            />
                         </div>
                     </form>
 
@@ -164,7 +171,7 @@ function Preferences() {
                             <input
                             type="button"
                             value="Skip for now"
-                            onChange={formik.handleChange} 
+                            className="preferences-skip-button"
                             />
                         </Link>
                     </div>

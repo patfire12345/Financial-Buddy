@@ -1,35 +1,45 @@
 import React from 'react'
 import {useFormik} from 'formik';
-import {Link} from 'react-router-dom';
+import {Link, Redirect} from 'react-router-dom';
 import './Situation.css'
 
-function Situation() {
+function Situation(props) {
 
     const formik = useFormik({
         initialValues: {
-            creditScore: "",
+            credit: "",
             savings: "",
             loan: "",
         },
     })
 
     const onSubmit = async (values) => {
-        
-        const response = await fetch("",
-            {
-                method: "GET", 
-                headers: {
-                    Accept: 'application/json',
-                    'Content-Type': 'application/json'
-                },
-            }
-        );
 
-        if(!response.ok) {
-            throw new Error(response.messages)
-        }
+        values.preventDefault();
+        console.log(values.target.savings.value);
         
-        const user = await response.json();
+        props.history.push("/preferences");
+        
+        // const response = await fetch("",
+        //     {
+        //         method: "GET", 
+        //         headers: {
+        //             Accept: 'application/json',
+        //             'Content-Type': 'application/json'
+        //         },
+        //         body: {
+        //             situationCredit: values.target.credit.value,
+        //             situationSavings: values.target.savings.value,
+        //             situationLoan: values.target.loan.value,
+        //         }
+        //     }
+        // );
+
+        // if(!response.ok) {
+        //     throw new Error(response.messages)
+        // }
+        
+        // const user = await response.json();
 
         // do something with the data
     }
@@ -74,7 +84,7 @@ function Situation() {
                                 name="credit"
                                 id="credit"
                                 className="credit"
-                                value={formik.values.creditScore} 
+                                value={formik.values.credit} 
                                 onChange={formik.handleChange} 
                                 />
                                 
@@ -114,13 +124,12 @@ function Situation() {
                         </div>
 
                         <div className='situation-next'>
-                            <Link to='/preferences'>
-                                <input
-                                type="submit"
-                                value="Next step -> "
-                                onChange={formik.handleChange} 
-                                />
-                            </Link>
+                            <input
+                            type="submit"
+                            value="Next step -> "
+                            onChange={formik.handleChange} 
+                            className='situation-next-button'
+                            />
                         </div>
                     </form>
 
@@ -129,7 +138,7 @@ function Situation() {
                                 <input
                                 type="button"
                                 value="Skip for now"
-                                onChange={formik.handleChange} 
+                                className='situation-skip-button'
                                 />
                             </Link>
                     </div>

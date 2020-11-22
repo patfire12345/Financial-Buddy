@@ -1,0 +1,53 @@
+// Request 1
+const response = await fetch("",
+            {
+                method: "GET", 
+                headers: {
+                    Accept: 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                body: {
+                    situationCredit: values.target.credit.value,
+                    situationSavings: values.target.savings.value,
+                    situationLoan: values.target.loan.value,
+                }
+            }
+        );
+
+// Request 2
+const response = await fetch("",
+            {
+                method: "GET", 
+                headers: {
+                    Accept: 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                body: {
+                    preferencePassive: values.target.passive.value,
+                    preferenceRisks: values.target.risks.value,
+                    preferenceDebt: values.target.debt.value,
+                    preferenceWithdraw: values.target.withdraw.value,
+                }
+            }
+        );
+
+// Request 3
+const response = await fetch("",
+            {
+                method: "GET", 
+                headers: {
+                    Accept: 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                body: {
+                    goalLoan: document.getElementById("loan").checked,
+                    goalMortgage: document.getElementById("mortgage").checked,
+                    goalIndependent: document.getElementById("independent").checked,
+                    goalSavings: document.getElementById("savings").checked,
+                    goalCar: document.getElementById("car").checked,
+                    goalPassive: document.getElementById("passive").checked,
+                    goalDegree: document.getElementById("degree").checked,
+                    goalOther: document.getElementById("other").checked,
+                }
+            }
+        );

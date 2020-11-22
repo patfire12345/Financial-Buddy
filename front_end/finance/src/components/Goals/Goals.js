@@ -1,32 +1,42 @@
 import React, { useState } from 'react'
-import {useFormik} from 'formik';
 import {Link} from 'react-router-dom';
 import './Goals.css'
 
-function Goals() {
-
-    // const [state, setState] = useState("cow");
+function Goals(props) {
 
     const onSubmit = async (values) => {
 
-        // values.preventDefault();
-        // setState(values.target.loan);
-        
-        const response = await fetch("",
-            {
-                method: "GET", 
-                headers: {
-                    Accept: 'application/json',
-                    'Content-Type': 'application/json'
-                },
-            }
-        );
+        values.preventDefault();
 
-        if(!response.ok) {
-            throw new Error(response.messages)
-        }
+        console.log(document.getElementById("loan").checked);
         
-        const user = await response.json();
+        props.history.push("/recommend");
+        
+        // const response = await fetch("",
+        //     {
+        //         method: "GET", 
+        //         headers: {
+        //             Accept: 'application/json',
+        //             'Content-Type': 'application/json'
+        //         },
+        //         body: {
+        //             goalLoan: document.getElementById("loan").checked,
+        //             goalMortgage: document.getElementById("mortgage").checked,
+        //             goalIndependent: document.getElementById("independent").checked,
+        //             goalSavings: document.getElementById("savings").checked,
+        //             goalCar: document.getElementById("car").checked,
+        //             goalPassive: document.getElementById("passive").checked,
+        //             goalDegree: document.getElementById("degree").checked,
+        //             goalOther: document.getElementById("other").checked,
+        //         }
+        //     }
+        // );
+
+        // if(!response.ok) {
+        //     throw new Error(response.messages)
+        // }
+        
+        // const user = await response.json();
 
         // do something with the data
     }
@@ -68,7 +78,7 @@ function Goals() {
                                 Pay off my student loan
                                 <br/>
                                 <input
-                                type="radio"
+                                type="checkbox"
                                 name="loan"
                                 id="loan"
                                 value="loan"
@@ -80,7 +90,7 @@ function Goals() {
                                 Taking out a mortgage
                                 <br/>
                                 <input
-                                type="radio"
+                                type="checkbox"
                                 name="mortgage"
                                 id="mortgage"
                                 value="mortgage"
@@ -93,7 +103,7 @@ function Goals() {
                                 Become financially independent
                                 <br/>
                                 <input
-                                type="radio"
+                                type="checkbox"
                                 name="independent"
                                 id="independent"
                                 value="independent" 
@@ -106,7 +116,7 @@ function Goals() {
                                 Save up to 50k
                                 <br/>
                                 <input
-                                type="radio"
+                                type="checkbox"
                                 name="savings"
                                 id="savings"
                                 value="savings" 
@@ -119,7 +129,7 @@ function Goals() {
                                 Buy my own car
                                 <br/>
                                 <input
-                                type="radio"
+                                type="checkbox"
                                 name="car"
                                 id="car"
                                 value="car"
@@ -132,7 +142,7 @@ function Goals() {
                                 Have stable passive income
                                 <br/>
                                 <input
-                                type="radio"
+                                type="checkbox"
                                 name="passive"
                                 id="passive"
                                 value="car" 
@@ -145,7 +155,7 @@ function Goals() {
                                 Save up for a degree
                                 <br/>
                                 <input
-                                type="radio"
+                                type="checkbox"
                                 name="degree"
                                 id="degree"
                                 value="degree"
@@ -158,7 +168,7 @@ function Goals() {
                                 Other
                                 <br/>
                                 <input
-                                type="radio"
+                                type="checkbox"
                                 name="other"
                                 id="other"
                                 value="other"
@@ -168,22 +178,22 @@ function Goals() {
                         </div>
 
                         <div className='goals-next'>
-                            <Link to='/'>
-                                <input
-                                type="submit"
-                                value="Finish"
-                                />
-                            </Link>
+                            <input
+                            type="submit"
+                            value="Finish"
+                            className='goals-next-button'
+                            />
                         </div>
                     </form>
 
                     <div className='goals-skip'>
-                            <Link to='/'>
-                                <input
-                                type="button"
-                                value="Skip for now"
-                                />
-                            </Link>
+                        <Link to='/recommend'>
+                            <input
+                            type="button"
+                            value="Skip for now"
+                            className='goals-skip-button'
+                            />
+                        </Link>
                     </div>
 
                     <div className="goals-to-home">
