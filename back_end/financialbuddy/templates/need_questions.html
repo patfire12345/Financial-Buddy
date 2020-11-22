@@ -1,0 +1,55 @@
+<!-- templates/index.html -->
+
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+  Question Page 3
+</h1>
+<div class="column is-4 is-offset-4">
+    <h3 class="title">Financial</h3>
+    <div class="box">
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <div class="notification is-danger">
+                {{ messages[0] }}
+            </div>
+        {% endif %}
+        {% endwith %}
+        <form method="POST" action="/need_questions" align="left">
+            <input type="checkbox" id="need_student_loan" name="need_student_loan" value="True">
+            <label for="need_student_loan"> I need student loan</label><br>
+
+            <input type="checkbox" id="need_mortgage" name="need_mortgage" value="True">
+            <label for="need_student_loan"> I need mortgage</label><br>
+
+            <input type="checkbox" id="need_financial_independence" name="need_financial_independence" value="True">
+            <label for="need_financial_independence"> I need financial independence</label><br>
+
+            <input type="checkbox" id="need_save_money" name="need_save_money" value="True">
+            <label for="need_save_money"> I need to save moeny</label><br>
+
+            <input type="checkbox" id="need_buy_car" name="need_buy_car" value="True">
+            <label for="need_buy_car"> I need to buy a car</label><br>
+
+            <input type="checkbox" id="need_passive_income" name="need_passive_income" value="True">
+            <label for="need_passive_income"> I need passive income</label><br>
+
+            <input type="checkbox" id="need_saveup" name="need_saveup" value="True">
+            <label for="need_saveup"> I need to save up</label><br>
+
+            <input type="checkbox" id="need_other" name="need_other" value="True">
+            <label for="need_other"> I need others</label><br>
+
+
+
+
+
+
+
+
+            <button class="button is-block is-info is-large is-fullwidth">Confirm and Proceed</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

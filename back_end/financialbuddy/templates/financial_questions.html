@@ -1,0 +1,41 @@
+<!-- templates/index.html -->
+
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+  Question Page 1
+</h1>
+<div class="column is-4 is-offset-4">
+    <h3 class="title">Financial</h3>
+    <div class="box">
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <div class="notification is-danger">
+                {{ messages[0] }}
+            </div>
+        {% endif %}
+        {% endwith %}
+        <form method="POST" action="/financial_questions">
+            <div class="field">
+                <div class="control">
+                    <input class="input is-large" type="text" name="credit_score" placeholder="Your Credit Score" autofocus="">
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="control">
+                    <input class="input is-large" type="text" name="savings" placeholder="Your Savings Amount">
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="control">
+                    <input class="input is-large" type="text" name="student_loan" placeholder="Your Student Loan Amount">
+                </div>
+            </div>
+            <button class="button is-block is-info is-large is-fullwidth">Confirm and Proceed</button>
+        </form>
+    </div>
+</div>
+{% endblock %}
